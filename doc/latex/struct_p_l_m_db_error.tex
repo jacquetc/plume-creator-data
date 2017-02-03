@@ -1,0 +1,43 @@
+\hypertarget{struct_p_l_m_db_error}{}\section{P\+L\+M\+Db\+Error Struct Reference}
+\label{struct_p_l_m_db_error}\index{P\+L\+M\+Db\+Error@{P\+L\+M\+Db\+Error}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Return\+Error} \{ {\bfseries Error} =0, 
+{\bfseries OK} =1
+ \}\hypertarget{struct_p_l_m_db_error_aaf5ee57ca577a094f23cec1c195965cf}{}\label{struct_p_l_m_db_error_aaf5ee57ca577a094f23cec1c195965cf}
+
+\item 
+enum {\bfseries Error} \{ {\bfseries Invalid\+Type} =1, 
+{\bfseries Invalid\+Parameter} =2, 
+{\bfseries Internal\+Error} =3, 
+{\bfseries Requested\+Record\+Not\+Found} =4
+ \}\hypertarget{struct_p_l_m_db_error_a48e11f0b78e3a889668ecfe25d239402}{}\label{struct_p_l_m_db_error_a48e11f0b78e3a889668ecfe25d239402}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Q\+String {\bfseries get\+Status} () const \hypertarget{struct_p_l_m_db_error_af1eea58d11efb9e9d10867e41765997a}{}\label{struct_p_l_m_db_error_af1eea58d11efb9e9d10867e41765997a}
+
+\item 
+void {\bfseries set\+Status} (int status, int parameter, const Q\+String \&error\+Msg)\hypertarget{struct_p_l_m_db_error_a985a2a614d70453f86c84ffa0df2379a}{}\label{struct_p_l_m_db_error_a985a2a614d70453f86c84ffa0df2379a}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries status}\hypertarget{struct_p_l_m_db_error_a2b258798884598e32ce5391ef4895f63}{}\label{struct_p_l_m_db_error_a2b258798884598e32ce5391ef4895f63}
+
+\item 
+int {\bfseries parameter}\hypertarget{struct_p_l_m_db_error_a347b0618011dfcdc200b235fd7265297}{}\label{struct_p_l_m_db_error_a347b0618011dfcdc200b235fd7265297}
+
+\item 
+Q\+String {\bfseries error\+Msg}\hypertarget{struct_p_l_m_db_error_ace09c3fafe8fa3974537c8182490f314}{}\label{struct_p_l_m_db_error_ace09c3fafe8fa3974537c8182490f314}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/tasks/sql/tree/plmdberror.\+h\end{DoxyCompactItemize}

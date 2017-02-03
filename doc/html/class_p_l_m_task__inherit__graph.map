@@ -1,0 +1,11 @@
+<map id="PLMTask" name="PLMTask">
+<area shape="rect" id="node3" href="$class_p_l_m_project_close_all_projects.html" title="PLMProjectCloseAllProjects" alt="" coords="251,5,437,32"/>
+<area shape="rect" id="node4" href="$class_p_l_m_project_close_project.html" title="PLMProjectCloseProject" alt="" coords="261,56,427,83"/>
+<area shape="rect" id="node5" href="$class_p_l_m_project_get_project_id_list.html" title="PLMProjectGetProjectIdList" alt="" coords="252,107,436,133"/>
+<area shape="rect" id="node6" href="$class_p_l_m_project_load_project.html" title="PLMProjectLoadProject" alt="" coords="265,157,423,184"/>
+<area shape="rect" id="node7" href="$class_p_l_m_write_get_all.html" title="PLMWriteGetAll" alt="" coords="286,208,402,235"/>
+<area shape="rect" id="node8" href="$class_p_l_m_write_get_all_indents.html" title="PLMWriteGetAllIndents" alt="" coords="265,259,423,285"/>
+<area shape="rect" id="node9" href="$class_p_l_m_write_get_all_titles.html" title="PLMWriteGetAllTitles" alt="" coords="270,309,418,336"/>
+<area shape="rect" id="node10" href="$class_p_l_m_write_get_title.html" title="PLMWriteGetTitle" alt="" coords="281,360,407,387"/>
+<area shape="rect" id="node11" href="$class_p_l_m_write_set_title.html" title="PLMWriteSetTitle" alt="" coords="281,411,407,437"/>
+</map>

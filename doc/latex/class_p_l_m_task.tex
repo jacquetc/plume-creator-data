@@ -1,0 +1,84 @@
+\hypertarget{class_p_l_m_task}{}\section{P\+L\+M\+Task Class Reference}
+\label{class_p_l_m_task}\index{P\+L\+M\+Task@{P\+L\+M\+Task}}
+
+
+Inheritance diagram for P\+L\+M\+Task\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_l_m_task__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for P\+L\+M\+Task\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{class_p_l_m_task__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Type} \{ {\bfseries Getter}, 
+{\bfseries Setter}
+ \}\hypertarget{class_p_l_m_task_a9e0f58ff71fe4908bf42d3b9275df359}{}\label{class_p_l_m_task_a9e0f58ff71fe4908bf42d3b9275df359}
+
+\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries task\+Finished} ()\hypertarget{class_p_l_m_task_a42d0acbdca59ddb213499193d80d9dcb}{}\label{class_p_l_m_task_a42d0acbdca59ddb213499193d80d9dcb}
+
+\item 
+void {\bfseries task\+Started} ()\hypertarget{class_p_l_m_task_a3e4ffc2ec649612a18676de0d3b90cca}{}\label{class_p_l_m_task_a3e4ffc2ec649612a18676de0d3b90cca}
+
+\item 
+void {\bfseries error\+Sent} (const Q\+String \&error)\hypertarget{class_p_l_m_task_a6838dfdac49090cffeb26591dc29736d}{}\label{class_p_l_m_task_a6838dfdac49090cffeb26591dc29736d}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries do\+Task} (bool $\ast$ok)=0\hypertarget{class_p_l_m_task_a3daa83d5290573d976b49bf41e969b72}{}\label{class_p_l_m_task_a3daa83d5290573d976b49bf41e969b72}
+
+\item 
+Type {\bfseries type} () const \hypertarget{class_p_l_m_task_adbcf19c6cd19a384154f0e57617d23b1}{}\label{class_p_l_m_task_adbcf19c6cd19a384154f0e57617d23b1}
+
+\item 
+Q\+Variant {\bfseries return\+Value} () const \hypertarget{class_p_l_m_task_a50be638d1d32a8ccf738e65c1d49f022}{}\label{class_p_l_m_task_a50be638d1d32a8ccf738e65c1d49f022}
+
+\item 
+Q\+List$<$ Q\+Hash$<$ Q\+String, Q\+Variant $>$ $>$ {\bfseries return\+Value\+Get\+All} () const \hypertarget{class_p_l_m_task_aa0421360e3640a07e4aa5a194082078f}{}\label{class_p_l_m_task_aa0421360e3640a07e4aa5a194082078f}
+
+\item 
+Q\+Hash$<$ int, Q\+Variant $>$ {\bfseries return\+Value\+Hash} () const \hypertarget{class_p_l_m_task_a99059e1a7ff7d2206f5a561fb05fbdd6}{}\label{class_p_l_m_task_a99059e1a7ff7d2206f5a561fb05fbdd6}
+
+\item 
+Q\+List$<$ Q\+Variant $>$ {\bfseries return\+Value\+List} () const \hypertarget{class_p_l_m_task_a58e455cbe80db6fdc6c4a2d920a342ff}{}\label{class_p_l_m_task_a58e455cbe80db6fdc6c4a2d920a342ff}
+
+\item 
+void {\bfseries set\+Return\+Value} (const Q\+Variant \&return\+Value)\hypertarget{class_p_l_m_task_a974b3db04ac20afc1a0dda65cd3afe1b}{}\label{class_p_l_m_task_a974b3db04ac20afc1a0dda65cd3afe1b}
+
+\item 
+void {\bfseries set\+Return\+Value\+Get\+All} (const Q\+List$<$ Q\+Hash$<$ Q\+String, Q\+Variant $>$ $>$ \&return\+Value)\hypertarget{class_p_l_m_task_ad4cdd4defb5b93c85360e2451837bd17}{}\label{class_p_l_m_task_ad4cdd4defb5b93c85360e2451837bd17}
+
+\item 
+void {\bfseries set\+Return\+Value\+Hash} (const Q\+Hash$<$ int, Q\+Variant $>$ \&return\+Value)\hypertarget{class_p_l_m_task_a8b0bca01fb1918f255d7a7a03aed5966}{}\label{class_p_l_m_task_a8b0bca01fb1918f255d7a7a03aed5966}
+
+\item 
+void {\bfseries set\+Return\+Value\+List} (const Q\+List$<$ Q\+Variant $>$ \&return\+Value)\hypertarget{class_p_l_m_task_a021bd4af36bcbffbf8673747b4ab22fe}{}\label{class_p_l_m_task_a021bd4af36bcbffbf8673747b4ab22fe}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Type} (const Type \&\+\_\+type)\hypertarget{class_p_l_m_task_a51fa5c4fd2dbffc2df4506b55107b0a7}{}\label{class_p_l_m_task_a51fa5c4fd2dbffc2df4506b55107b0a7}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/tasks/plmtask.\+h\end{DoxyCompactItemize}
